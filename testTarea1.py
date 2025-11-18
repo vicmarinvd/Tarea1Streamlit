@@ -5,7 +5,7 @@ import seaborn as sns
 
 # Carga de datos
 def load_data():
-    df = pd.read_excel('/Users/victoriamarin/Downloads/vendedores.xlsx')
+    df = pd.read_excel('vendedores.xlsx')
     return df
 
 data = load_data()
